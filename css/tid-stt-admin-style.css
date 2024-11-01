@@ -1,0 +1,66 @@
+
+.tid-main-area {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+.tid-main-area .tid-common {
+   background-color: #fff;
+   border-radius: 5px;
+   border: 1px solid #ddd;
+   padding: 20px;
+}
+.tid-main-area .tid-common  h3#title{
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 10px;
+  border-left: 5px solid #2271b1;
+  margin: 5px 0px 20px 0px;
+}
+.tid-main-area .tid-body-area.tid-common {
+    flex-basis: 70%;
+    margin-right: 3%;
+}
+.tid-main-area .tid-body-area label {
+    font-size: 16px;
+    color: #222;
+    display: block;
+    font-weight: 500;
+    margin: 5px 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px 15px;
+    box-shadow: 10px 8px 30px -10px #ddd;
+}
+
+.tid-main-area .tid-body-area small {
+   font-size: 12px;
+   display: block;
+   font-weight: 500;
+   margin-bottom: 10px;
+   padding: 0px 10px;
+   color: #666;
+}
+
+.tid-main-area .tid-sidebar-area.tid-common {
+    flex-basis: 25%;
+}
+
+.tid-main-area .form-gorup {
+    margin-bottom: 20px;
+}
+.tid-main-areaa input.form-control {
+    width: 94%;
+}
+.tid-main-area input[type="color"] {
+   width: 30%;
+   height: 70px;
+   cursor: pointer;
+}
+.tid-sidebar-area p img {
+    width: 100%;
+}
